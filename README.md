@@ -10,11 +10,9 @@ On the project home, run the following command:
 
 ```java -jar $AVRO_HOME/avro-tools-1.6.2.jar compile schema src/main/resources/Pair.avsc src/main/java/```
 
-Then modify the package of `Pair.java` to `org.sooo`.
-
 ## Tests
 
-Run unit tests in `src/test/java/org/sooo/*Test`.
+Run unit tests in `src/test/java/org/sooo/AvroTest`.
 
 ## References
 [Example source code accompanying O'Reilly's "Hadoop: The Definitive Guide" by Tom White](https://github.com/tomwhite/hadoop-book/tree/master/avro)
